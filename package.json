@@ -1,14 +1,16 @@
 {
-  "name": "admin-server_final",
+  "name": "express-js-admin",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "11.13.0"
+  },
   "scripts": {
-    "start": "node server.js",
-    "build": "express build --output public"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ManuRodgers",
   "license": "ISC",
   "dependencies": {
     "@zeit/ncc": "^0.20.5",
